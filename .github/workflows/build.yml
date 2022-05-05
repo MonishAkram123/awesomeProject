@@ -17,6 +17,7 @@ jobs:
               go version &&
               go test ./... -coverprofile coverage.out -json > report.json
               exit 0
+      - name: Running Tests
       - name: SonarCloud Scan
         uses: SonarSource/sonarcloud-github-action@master
         env:
