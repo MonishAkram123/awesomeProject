@@ -12,7 +12,7 @@ func Multiply(a, b int64) int64 {
 }
 
 func Divide(a, b int64) int64 {
-	return a * b
+	return a / b
 }
 
 func Rem(a, b int64) int64 {
