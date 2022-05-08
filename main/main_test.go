@@ -12,7 +12,7 @@ func TestAdd(t *testing.T) {
 		args args
 		want int64
 	}{
-		{"Add 2 and 3", args{2, 3}, 5},
+		{"Add 2 and 3", args{2, 3}, 3},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
